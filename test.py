@@ -14,6 +14,7 @@ class TestCountWords(unittest.TestCase):
                         fringilla nec nunc. Integer vitae velit volutpat erat lacinia egestas in ac lorem. \
                         Sed efficitur venenatis faucibus. In hac habitasse platea dictumst. \
                         Vestibulum dictum elementum magna sed posuere. Pellentesque habitant morbi tristique senectus et netus.'
+
   def test_count_words(self):
     words: int = count_words(self.test_sentence)
     self.assertEqual(words, 123);
